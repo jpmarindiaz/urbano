@@ -3,4 +3,6 @@
 * [Introduction](README.md)
 * [Viz types](chapter1.md)
     * [Pie chart](pie-chart.md)
+    * [Parallel coordinates](parallel-coordinates.md)
+* Places
 
