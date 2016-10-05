@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Viz types](chapter1.md)
+    * [Pie chart](pie-chart.md)
+
