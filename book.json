@@ -1,0 +1,80 @@
+{
+    "title": "Datasketch Urbano",
+    "description": "How to make visualizations in the physical world",
+    "author": "jpmarindiaz",
+    "structure": {
+        "readme": "intro.md"
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": ["-disqus", "include","sharing","-image-captions","collapsible-menu"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "datasketch"
+        },
+        "image-captions": {
+            "caption": "Img _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+        },
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        "fontSettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 2
+        },
+        "addcssjs": {
+            "js": ["js/custom.js"]
+        }
+    },
+    "styles": {
+        "website": "index.css",
+        "ebook": "ebook.css",
+        "pdf": "pdf.css",
+        "mobi": "mobi.css",
+        "epub": "epub.css"
+    },
+
+    "links": {
+        "sidebar": {
+            "Datasketch": "http://datasketch.co"
+        },
+        "sharing": {
+            "all": false,
+            "facebook": true,
+            "google": false,
+            "twitter": true,
+            "weibo": false
+        }
+    },
+
+    "pdf": {
+        "toc": false,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+    }
+}
