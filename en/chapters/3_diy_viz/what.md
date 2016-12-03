@@ -44,5 +44,6 @@ When it is not easy to arrange the objects you can augment the properties of the
 - Paper
 - Vinilo
 - Markers
+- Rótulos
 
 
